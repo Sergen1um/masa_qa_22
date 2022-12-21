@@ -1,6 +1,6 @@
 package Lesson_2.HomeTask;
 
-public class HomeTask {
+public class HomeTask1 {
     public static void main(String[] args) {
         System.out.println("1.");
         byte minbyte = Byte.MIN_VALUE, maxbyte = Byte.MAX_VALUE, randombyte = 100;
