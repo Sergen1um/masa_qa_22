@@ -1,0 +1,30 @@
+package Lesson_2;
+
+public class Variables {
+    public static void main(String[] args) {
+        byte myByte;
+        myByte = 6;
+        byte mybyte = -128;
+        System.out.println(myByte);
+        short myShort = 2343;
+        // myShort.soutv
+        System.out.println("myShort = " + myShort);
+        int myInt = 1231312321;
+        long myLong = 1234123123123123211L;
+
+        float myFloat = 4.56f;
+        double myDouble = 56.78;
+
+        //System.out.println(myFloat = +);
+
+        boolean isTrue = true;
+        boolean isFalse = false;
+
+        //char myChar = '\u1F60';
+        char myChar = 'g';
+        System.out.println("myChar =" + myChar);
+
+        //String myName = 'Alex';
+        //System.out.println("myName = " + myName);
+    }
+}
