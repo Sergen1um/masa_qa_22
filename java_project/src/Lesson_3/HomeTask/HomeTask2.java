@@ -30,17 +30,18 @@ public class HomeTask2 {
         int y = 12;
         int z = 3;
         System.out.println("x = " + x + "; y = " + y + "; z = " + z );
+
         System.out.println("1. x += y - x++ * z");
-        System.out.println("2. z = --x - y * 5");
-        System.out.println("3. y /= x + 5 % z");
-        System.out.println("4. z = x++ + y * 5");
-        System.out.println("5. x = y - x++ * z");
-        System.out.println("x = ?; y = ?; z =?");
         x += y - x++ * z;
+        System.out.println("2. z = --x - y * 5");
         z = --x - y * 5;
+        System.out.println("3. y /= x + 5 % z");
         y /= x + 5 % z;
+        System.out.println("4. z = x++ + y * 5");
         z = x++ + y * 5;
+        System.out.println("5. x = y - x++ * z");
         x = y - x++ * z;
+        System.out.println("x = ?; y = ?; z =?");
         System.out.println("x = " + x + "; y = " + y + "; z = " + z );
     }
 }
