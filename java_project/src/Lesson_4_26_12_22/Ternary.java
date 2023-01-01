@@ -7,7 +7,7 @@ public class Ternary {
         int b = 5;
         int c = 6;
         String result;
-/*      if (a == b){
+/*      if (a == b) {
             result = "a and b are equal";
             System.out.println("a and b are equal");
         }

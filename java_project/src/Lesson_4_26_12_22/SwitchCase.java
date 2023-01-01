@@ -12,7 +12,7 @@ public class SwitchCase {
         //int number = input.nextInt();
         String text = input.nextLine();
 
-        switch (text){
+        switch (text) {
             //case 1:
             case "1":
                 System.out.println("Number is 1");
