@@ -49,6 +49,6 @@ public class Months {
                 System.out.println("There are only 12 months in a year");
                 break;
         }
-
+    input.close();
     }
 }

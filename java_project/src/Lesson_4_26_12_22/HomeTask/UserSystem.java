@@ -27,5 +27,6 @@ public class UserSystem {
         else {
             System.out.println("There is no user with such name!");
         }
+        input.close();
     }
 }
