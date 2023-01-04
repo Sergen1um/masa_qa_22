@@ -1,4 +1,4 @@
-package Lesson_4_26_12_22;
+package lesson_4_26_12_22;
 
 public class Ternary {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Lesson_4_26_12_22.HomeTask;
+package lesson_4_26_12_22.HomeTask;
 
 import java.util.Scanner;
 
