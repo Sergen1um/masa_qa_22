@@ -2,7 +2,7 @@ package lesson_6_02_01_23.classTasks;
 
 import java.util.Random;
 
-public class MaxGrade {
+public class Task_01_MaxGrade {
     public static void main(String[] args) {
 
         Random random = new Random();

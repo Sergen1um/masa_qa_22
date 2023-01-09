@@ -12,8 +12,7 @@ public class Task_02_Interval {
         while (number < 0 || number > 100) {
 
             System.out.println("Your number " + number + " is not in one of the interval. Enter new number 0 - 100: ");
-            Scanner input2 = new Scanner(System.in);
-            number = input2.nextInt();
+            number = input.nextInt();
         }
         if (number >= 0 && number <= 14) {
             System.out.println("Your number " + number + " in interval 0-14");

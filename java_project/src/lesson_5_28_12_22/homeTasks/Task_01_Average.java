@@ -7,7 +7,7 @@ public class Task_01_Average {
         int summary = 0;
 
         for (int i = 0; i < (lastNumber + 1); i++) {
-            summary = summary + i;
+            summary += i;
         }
         System.out.println((double)summary / (lastNumber + 1));
     }
