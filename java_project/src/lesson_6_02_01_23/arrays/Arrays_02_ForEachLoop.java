@@ -10,17 +10,14 @@ public class Arrays_02_ForEachLoop {
         }
 
         System.out.println();
-        for (int number : arrayOfNumbers) {
-            System.out.print(number + " ");
-        }
-
-        System.out.println();
 
         int array[] = new int[10];
+        for (int number : array) {
+            number = 5;
+        }
 
         for (int number : array) {
             System.out.print(number + " ");
         }
     }
-
 }
