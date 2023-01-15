@@ -19,24 +19,35 @@ public class Task_01_AreArraysEqual {
     }
 
     public static boolean checkArray(int array1[], int array2[]) {
+
         if (array1.length == array2.length) {
+
             for (int i : array1) {
+
                 if (array1[i] == array2[i]) {
+
                     return true;
+
                 } else {
+
                     return false;
+
                 }
             }
         }
+
         return false;
+
     }
 
     public static boolean checkArrayAlternative1(int array1[], int array2[]) {
+
         if(Arrays.equals(array1,array2)){
 
             return true;
         }
 
         return false;
+        
     }
 }
