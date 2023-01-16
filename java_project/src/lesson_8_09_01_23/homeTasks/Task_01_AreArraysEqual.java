@@ -32,6 +32,7 @@ public class Task_01_AreArraysEqual {
             }
 
             return true;
+
         }
 
         return false;
