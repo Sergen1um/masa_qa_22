@@ -22,7 +22,7 @@ public class Task_01_AreArraysEqual {
 
         if (array1.length == array2.length) {
 
-            for (int i : array1) {
+            for (int i = 0; i < array1.length; i++) {
 
                 if (array1[i] == array2[i]) {
 
@@ -42,12 +42,7 @@ public class Task_01_AreArraysEqual {
 
     public static boolean checkArrayAlternative1(int array1[], int array2[]) {
 
-        if(Arrays.equals(array1,array2)){
+        return Arrays.equals(array1, array2);
 
-            return true;
-        }
-
-        return false;
-        
     }
 }
